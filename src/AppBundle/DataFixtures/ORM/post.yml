@@ -1,0 +1,9 @@
+AppBundle\Entity\Post:
+    post_{0..10}:
+        title: <title()>
+        slug: <slug()>
+        summary: <text()>
+        content: <text()>
+        authorEmail: <email()>
+        publishedAt: <date()>
+#        comment: @comment*

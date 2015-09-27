@@ -25,10 +25,12 @@
         "symfony/monolog-bundle"               : "~2.7",
         "symfony/swiftmailer-bundle"           : "~2.3",
         "symfony/symfony"                      : "~2.7",
-        "twig/extensions"                      : "~1.2"
+        "twig/extensions"                      : "~1.2",
+        "hautelook/alice-bundle": "~1.0@beta"
     },
     "require-dev": {
-        "sensio/generator-bundle": "~2.3"
+        "sensio/generator-bundle": "~2.3",
+        "theofidry/psysh-bundle": "^1.1"
     },
     "scripts": {
         "post-install-cmd": [
